@@ -5,7 +5,7 @@ require("@babel/register");
 const config = {
   entry: ['./src/index.js'],
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'dev'),
     filename: 'bundle.js'
   },
   module: {
@@ -24,7 +24,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        template: './public/index.html',
+        template: './dev/index.html',
         inject: 'body'
     })
   ],
@@ -35,7 +35,7 @@ const config = {
     ]
   },
   devServer: {
-    contentBase: path.resolve(__dirname, 'public'),
+    contentBase: path.resolve(__dirname, 'dev'),
     port: 3000,
     inline: true
   },
