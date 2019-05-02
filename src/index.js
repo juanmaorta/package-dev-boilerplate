@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-import SomeComponent from '../packages'
+import SomeComponent from '@auvik/button'
 
 const App = ({label}) => {
   return (

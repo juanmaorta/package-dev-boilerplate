@@ -9,7 +9,7 @@ const styles = theme => ({
   }
 })
 
-class MyComponent extends Component {
+class MyButton extends Component {
   render () {
     const { label, classes } = this.props
     return (
@@ -20,9 +20,9 @@ class MyComponent extends Component {
   }
 }
 
-MyComponent.propTypes = {
+MyButton.propTypes = {
   classes: PropTypes.object.isRequired,
   label: PropTypes.string.isRequired,
 }
 
-export default withStyles(styles)(MyComponent)
+export default withStyles(styles)(MyButton)
