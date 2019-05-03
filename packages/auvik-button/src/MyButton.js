@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import AuvikCard from '_auvik-card';
 
 const styles = theme => ({
   button: {
@@ -13,9 +14,12 @@ class MyButton extends Component {
   render () {
     const { label, classes } = this.props
     return (
-      <Button variant="contained" className={classes.button}>
-        {label}
-      </Button>
+      <div>
+        <AuvikCard />
+        <Button variant="contained" className={classes.button}>
+          {label}
+        </Button>
+      </div>
     )
   }
 }

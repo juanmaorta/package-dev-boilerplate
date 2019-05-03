@@ -33,7 +33,7 @@ class TheCard extends Component {
       <Card className={classes.card}>
         <CardContent>
           <Typography className={classes.title} color="textSecondary" gutterBottom>
-            Word of the Day
+            This card is in a <i>"private"</i> package
           </Typography>
           <Typography variant="h5" component="h2">
             be

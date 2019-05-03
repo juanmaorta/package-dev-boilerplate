@@ -1,6 +1,5 @@
 const defaultAlias = {
-  '@auvik/button': './packages/auvik-button/src',
-  '@auvik/card': './packages/auvik-card/src',
+  '@auvik/button': './packages/auvik-button/src'
 };
 
 module.exports = {
