@@ -10,7 +10,6 @@
   "author": "Juanma Orta",
   "license": "MIT",
   "dependencies": {
-    "@auvik/button": "1.0.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
     "@babel/polyfill": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
