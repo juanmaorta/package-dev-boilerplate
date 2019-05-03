@@ -1,8 +1,7 @@
 {
-  "name": "my-buttons",
+  "name": "@auvik/ui",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development --config webpack.config.js",
     "build": "rollup --config rollup.config.js",
@@ -23,9 +22,11 @@
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
     "@babel/preset-env": "^7.4.3",
     "@babel/register": "^7.4.0",
     "babel-loader": "^8.0.5",
+    "babel-plugin-module-resolver": "^3.2.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
     "html-webpack-plugin": "^3.2.0",

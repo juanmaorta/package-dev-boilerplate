@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "dependencies": {
     "@material-ui/core": "^3.9.3"
+  },
+  "scripts":{
+    "build": "NODE_ENV=production BABEL_ENV=cjs babel --config-file ../../babel.config.js ./src --out-dir ./build --ignore \"**/*.spec.js\""
   }
 }
