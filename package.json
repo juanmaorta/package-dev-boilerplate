@@ -2,6 +2,7 @@
   "name": "@auvik/ui",
   "version": "1.0.0",
   "description": "",
+  "main": "./lib/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development --config webpack.config.js",
     "build": "rollup --config rollup.config.js",
