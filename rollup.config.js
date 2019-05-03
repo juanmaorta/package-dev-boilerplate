@@ -1,7 +1,7 @@
 import babel from 'rollup-plugin-babel'
 
 module.exports = {
-  input: 'packages/auvik-button/src/index.js',
+  input: 'packages/auvik-ui/src/index.js',
   output: {
     file: 'lib/index.js',
     format: 'cjs'

@@ -1,5 +1,5 @@
 {
-  "name": "@auvik/button",
+  "name": "@auvik/ui",
   "version": "1.0.0",
   "dependencies": {
     "@material-ui/core": "^3.9.3"
